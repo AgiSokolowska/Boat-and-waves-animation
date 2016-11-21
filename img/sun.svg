@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="29mm"
+   height="32mm"
+   viewBox="0 0 102.75585 113.38578"
+   id="svg3620"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="sun.svg"
+   inkscape:export-filename="C:\Users\dell\Desktop\Projekt końcowy\Beautiful-mountaints-landscape-sea\sun1.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3622" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="375"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3625">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-938.97594)">
+    <g
+       id="g3336"
+       transform="matrix(0.3341919,0,0,0.3341919,244.78625,905.62831)">
+      <path
+         style="fill:#ffc200;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m -467.6301,272.3622 -74.31641,10.98633 58.87208,46.66016 -69.84375,-27.70996 27.70507,69.84864 -46.66015,-58.87697 -10.98632,74.31642 -10.98634,-74.31642 -46.66014,58.87208 27.70995,-69.84375 -69.84863,27.70996 58.87696,-46.66016 -74.31641,-10.98633 74.31641,-10.98632 -58.87696,-46.66504 69.84863,27.70996 -27.70995,-69.84375 46.66014,58.87694 10.98634,-74.32128 10.98632,74.32128 46.66504,-58.87694 -27.70996,69.84863 69.84375,-27.70996 -58.87208,46.66016 z m 0,0"
+         id="path7"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#ffc200;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m -443.9094,310.61904 -93.2666,-11.42579 55.50293,75.81544 -75.02441,-56.60645 10.22461,93.42774 -36.71875,-86.48926 -37.9248,85.9668 11.43066,-93.26172 -75.81542,55.50293 56.60156,-75.02441 -93.42285,10.21972 86.48437,-36.71875 -85.96679,-37.91992 93.26172,11.42578 -55.50294,-75.81543 75.0293,56.60156 -10.22461,-93.42285 36.71875,86.48926 37.91991,-85.97168 -11.42577,93.2666 75.81542,-55.50293 -56.60156,75.02441 93.42285,-10.2246 -86.48925,36.71875 z m 0,0"
+         id="path9"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#ffc200;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m -521.32151,272.3622 c 0,33.98438 -27.54882,61.53809 -61.53807,61.53809 -33.98438,0 -61.53809,-27.55371 -61.53809,-61.53809 0,-33.98925 27.55371,-61.53808 61.53809,-61.53808 33.98925,0 61.53807,27.54883 61.53807,61.53808"
+         id="path11"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

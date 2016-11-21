@@ -1,0 +1,512 @@
+.wrapper {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    background-color: lightblue;
+    margin: 50px auto 0 auto;
+    overflow: hidden;
+}
+
+.layer {
+    position: absolute;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+}
+
+.wave {
+    bottom: 0;
+    left: 0;
+}
+
+.wave1 {
+    width: 1600px;
+    bottom: 20px;
+    animation: wave-layer 60s 0s linear infinite;
+    transform: translateX(0);
+    z-index: 101;
+}
+
+@keyframes wave-layer {
+    100% {
+        transform: translateX(800px);
+    }
+}
+
+#wave1a, #wave1b, #wave2a, #wave2b, #wave3a, #wave3b, #wave4a, #wave4b {
+    position: absolute;
+    width: 800px;
+}
+
+#wave1a, #wave1b {
+    width: 802px;
+}
+
+#wave4a, #wave4b {
+    width: 803px;
+}
+
+#wave3a, #wave3b {
+    width: 807px;
+}
+
+#wave1a {
+    bottom: 10px;
+    left: 0;
+}
+
+#wave1b {
+    bottom: 10px;
+    left: -800px;
+}
+
+#wave1a, #wave1b {
+    animation: wave-updown1 10s 0s linear infinite;
+}
+
+@keyframes wave-updown1 {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(10px);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.wave2 {
+    width: 1600px;
+    bottom: 50px;
+    animation: wave-layer 60s 0s linear infinite;
+    transform: translateX(0);
+    z-index: 103;
+}
+
+#wave2a {
+    bottom: 20px;
+    left: 0;
+}
+
+#wave2b {
+    bottom: 20px;
+    left: -800px;
+}
+
+@keyframes wave-updown2 {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(20px);
+    }
+    75% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.wave3 {
+    width: 1600px;
+    bottom: 30px;
+    animation: wave-layer 30s 0s linear infinite;
+    transform: translateX(0);
+    z-index: 106;
+}
+
+#wave3a {
+    bottom: 0;
+    left: 0;
+}
+
+#wave3b {
+    bottom: 0;
+    left: -800px;
+}
+
+#wave3a, #wave3b {
+    animation: wave-updown3 30s 0s linear infinite;
+}
+
+@keyframes wave-updown3 {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(10px);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.wave4 {
+    width: 1600px;
+    bottom: 0;
+    animation: wave-layer 40s 0s linear infinite;
+    transform: translateX(0);
+    z-index: 110;
+}
+
+#wave4a {
+    bottom: -17px;
+    left: 0;
+}
+
+#wave4b {
+    bottom: -17px;
+    left: -800px;
+}
+
+@keyframes wave-updown4 {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(20px);
+    }
+    75% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.hills {
+    width: 4000px;
+    height: 200px;
+    animation: hills 120s 0s linear infinite;
+    transform: translateX(0);
+    z-index: 4;
+}
+
+@keyframes hills {
+    100% {
+        transform: translateX(3800px);
+    }
+}
+
+#hills1, #hills2, #hills3 {
+    position: absolute;
+}
+
+#hills1 {
+    transform: translateX(-300px);
+    width: 700px;
+    bottom: -230px;
+}
+
+#hills2 {
+    transform: translateX(-1400px);
+    width: 500px;
+    bottom: -230px;
+}
+
+#hills3 {
+    transform: translateX(-2400px);
+    width: 350px;
+    bottom: -230px;
+}
+
+.clouds {
+    width: 2400px;
+    left: 40px;
+    top: 30px;
+    animation: clouds 150s 0s linear infinite;
+    transform: translateX(0);
+    z-index: 2;
+}
+
+@keyframes clouds {
+    100% {
+        transform: translateX(2000px);
+    }
+}
+
+#bigcloud1 {
+    position: absolute;
+    transform: translateX(-200px);
+    top: 10px;
+}
+
+#bigcloud2 {
+    position: absolute;
+    transform: translateX(-250px);
+    top: 50px;
+    width: 90px;
+}
+
+#clouds1 {
+    position: absolute;
+    transform: translateX(-400px);
+    top: 40px;
+}
+
+#clouds2 {
+    position: absolute;
+    transform: translateX(-1100px);
+    top: 40px;
+}
+
+#clouds3 {
+    position: absolute;
+    transform: translateX(-1800px);
+    top: 30px;
+}
+
+.fish1 {
+    bottom: 10px;
+    right: 20px;
+    z-index: 107;
+    animation: fish-jump1 12s infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes fish-jump1 {
+    0% {
+        transform: translate(0, 0);
+    }
+    5% {
+        transform: translate(-80px, -50px);
+    }
+    10% {
+        transform: translate(-160px, 0);
+    }
+}
+
+@keyframes fish-jump1-rotate {
+    0% {
+        transform: rotateZ(0);
+    }
+    5% {
+        transform: rotateZ(-45deg);
+    }
+    10% {
+        transform: rotateZ(-90deg);
+    }
+}
+
+#fish1 {
+    position: absolute;
+    bottom: -20px;
+    right: 120px;
+    animation: fish-jump1-rotate 12s infinite;
+    animation-timing-function: ease-out;
+}
+
+.fish2small {
+    bottom: 10px;
+    right: 40px;
+    z-index: 105;
+    animation: fish-jump2 12s infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes fish-jump2 {
+    40% {
+        transform: translate(0, 0);
+    }
+    45% {
+        transform: translate(80px, -50px);
+    }
+    50% {
+        transform: translate(160px, 0);
+    }
+}
+
+#fish2small {
+    position: absolute;
+    bottom: 50px;
+    right: 70px;
+    animation: fish-jump2-rotate 12s infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes fish-jump2-rotate {
+    40% {
+        transform: rotateZ(0);
+    }
+    45% {
+        transform: rotateZ(45deg);
+    }
+    50% {
+        transform: rotateZ(90deg);
+    }
+}
+
+.sun {
+    left: 50px;
+    top: 60px;
+    z-index: 1;
+    animation: sun-animation 3s infinite;
+}
+
+@keyframes sun-animation {
+    from {
+        transform: none;
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    to {
+        transform: none;
+    }
+}
+
+.boat {
+    left: 170px;
+    bottom: 30px;
+    z-index: 104;
+    animation: boat-rotate 5s infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes boat-rotate {
+    0% {
+        transform: rotateZ(0) rotateX(0);
+    }
+    100% {
+        transform: rotateZ(5deg) rotateX(15deg);
+    }
+}
+
+#boat {
+    position: absolute;
+    bottom: 70px;
+    left: 90px;
+}
+
+#sail1 {
+    position: absolute;
+    bottom: 160px;
+    left: 90px;
+    transform: rotateZ(7deg);
+    animation: sailZ 10s infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes sailZ {
+    0% {
+        transform: rotateZ(0);
+    }
+    100% {
+        transform: rotateZ(7deg);
+    }
+}
+
+#sail2 {
+    position: absolute;
+    bottom: 165px;
+    left: 160px;
+    width: 150px;
+    height: 160px;
+    transform: rotateX(7deg);
+    animation: boat-rotate 10s infinite;
+    animation-direction: alternate-reverse;
+}
+
+#lifebuoy {
+    position: absolute;
+    bottom: 90px;
+    left: 150px;
+}
+
+#boy {
+    position: absolute;
+    bottom: 140px;
+    left: 220px;
+    display: none;
+}
+
+#stormBtn {
+    position: absolute;
+    bottom: 120px;
+    left: 171px;
+    color: red;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.soundBtn {
+    z-index: 1000;
+    bottom: 0;
+    right: 0;
+}
+
+#soundBtn {
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 70px;
+    height: 30px;
+}
+
+.storm-cloud {
+    width: 1600px;
+    top: -300px;
+    left: 0;
+    z-index: 50;
+    animation: clouds-storm 30s 0s linear infinite;
+    transform: translateX(0);
+    transition: top 0.9s ease-out;
+    z-index: 3;
+}
+
+@keyframes clouds-storm {
+    100% {
+        transform: translateX(800px);
+    }
+}
+
+#stormcloud-left1 {
+    position: absolute;
+    width: 800px;
+    left: 0;
+    top: 0;
+}
+
+#stormcloud-right1 {
+    position: absolute;
+    width: 800px;
+    left: -800px;
+    top: 0;
+}
+
+.storm-bkg {
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    pointer-events: none;
+}
+
+.wrapper.is-storm .storm-bkg, .wrapper.is-storm .storm-cloud {
+    display: block;
+}
+
+.wrapper.is-storm .storm-cloud {
+    top: -30px;
+}
+
+.wrapper.is-storm .boat {
+    animation-duration: 2s;
+}
+
+.wrapper.is-storm .wave1, .wrapper.is-storm .wave2, .wrapper.is-storm .wave3, .wrapper.is-storm .wave4 {
+    animation-duration: 10s;
+}
+
+
+/*.wrapper.is-storm .hills {
+    animation-duration: 150s;
+}
